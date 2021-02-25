@@ -1,17 +1,17 @@
 {
-  "name": "rokuserver",
+  "name": "roku_client_w21",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "roku front end",
+  "main": "index.js",
   "scripts": {
-    "start-server": "nodemon server",
-    "start": "node server"
+    "start": "node app",
+    "start-dev": "nodemon app"
   },
-  "keywords": [],
-  "author": "Juna Jung",
+  "author": "Juna",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "hbs": "^4.1.1",
+    "http-proxy-middleware": "^1.0.6"
   }
 }
