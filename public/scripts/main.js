@@ -12,8 +12,8 @@ import TheMovieThumb from './components/TheMovieThumbnailComponent.js';
                 .then(res => res.json())
                 .then(data => {
                     /// show the data in table form
-                console.table(data);
-                this.allMovies = data;
+                    console.table(data);
+                    this.allMovies = data;
             })
             .catch(err => console.error(err));
         },
