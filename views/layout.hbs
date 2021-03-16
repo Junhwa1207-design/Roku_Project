@@ -22,6 +22,11 @@
 
         {{{ body }}}
     </main>
+
+    {{#each scripts}}
+    <scripte defer="{{scripts}}"></scripte>
+    {{/each}}
+
     <script defer type="module" src="scripts/main.js"></script>
 
 </body>
